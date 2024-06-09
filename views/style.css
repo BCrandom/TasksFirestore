@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'title';
+    src: url('../source/Heyam.ttf');
+}
+@font-face {
+    font-family: 'bodyFont';
+    src: url('../source/Comfortaa-Regular.ttf');
+}
+
+body {
+    font-family: 'bodyFont';
+    background-image: url('../source/background-body.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav {
+    background-image: url('../source/background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90px;
+    margin-bottom: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav-title {
+    font-family: 'title';
+    font-size: 70px;
+    color: #b9a394;
+    text-shadow: 1px 1px 3px #383838;
+    margin: 5px;
+}
+#nav-subtitle {
+    font-family: 'title';
+    font-size: 30px;
+    color: #fff9f0;
+    text-shadow: 1px 1px 3px #383838;
+    margin: 5px;
+}
+
+.container {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset {
+    border-style: none;
+    width: 450px;
+    height: 130px;
+    background-color: #f9a26f;
+    border-radius: 8px;
+}
+legend {
+    font-size: 20px;
+    margin: 15px;
+}
+
+input, textarea {
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    font-family: 'bodyFont';
+}
+
+.btn, #btn {
+    width: 100px;
+    height: 50x;
+    margin: 10px;
+    font-family: 'bodyFont';
+    border-style: none;
+    border-radius: 8px;
+    background-color: #ffa07d;
+}
+.btn:hover {
+    background-color: #ffc5b8;
+}
+#btn:hover {
+    background-color: #ffc5b8;
+}
+
+#tarea, #receta, #evento {
+    background-color: #fff9f0;
+    padding: 30px;
+    border-radius: 8px;
+}
